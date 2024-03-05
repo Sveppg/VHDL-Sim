@@ -1,6 +1,6 @@
 #!/bin/sh
 
-echo "This Script will automate simualting vhdl models..."
+echo "This Script will automate simulating vhdl models..."
 
 
 usage(){
