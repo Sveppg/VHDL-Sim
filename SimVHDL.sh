@@ -1,9 +1,10 @@
 #!/bin/sh
 
-echo "This Script will simulate your VHDL Desgin and Testbench..."
+echo "This Script will automate simualting vhdl models..."
+
 
 usage(){
-	echo "Usage : $0 <Design.vhdl> <Testbench.vhdl>" > /dev/sterr
+	echo "Usage : $0 <Design.vhdl> <Testbench.vhdl>" >&2
 	exit 1
 
 }
