@@ -1,16 +1,14 @@
 #!/bin/sh
 
 echo "This Script will automate simulating vhdl models..."
-
-
 usage(){
 	echo "Usage : $0 <Design.vhdl> <Testbench.vhdl>" >&2
 	exit 1
-
 }
+
 Sim(){
 	cd /home/tw1/Documents/ModelSIm
-	echo "Type in a name for your Design:"
+	echo "Type in the name of your Design:"
 	read i
 	ghdl -s $1
 	ghdl -s $2
